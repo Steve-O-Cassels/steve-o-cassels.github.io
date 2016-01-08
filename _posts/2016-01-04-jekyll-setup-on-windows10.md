@@ -25,7 +25,9 @@ image:
 This post covers my experience establishing a local environment for building and compiling a Jekyll site on Windows 10 (64).
 
 ## A troublesome task?
-It's been said around that setting up a local development environment of Jekyll on Windows is quite troublesome.  My experience was not so bad...
+It's been said around that setting up a local development environment of Jekyll on Windows is quite troublesome; my experience was not so bad...
+
+The reasoning behind the steps I outline below is well documented on the interwebs and the [Jeykyll site](http://jekyllrb.com/) with its [Jekyll on Windows page](http://jekyllrb.com/docs/windows/#installation) is a good place to start.
 
 ### My steps
 This was mostly a CLI experience with [Chocolately](https://chocolatey.org/) with the exception of the Ruby DevKit install.
