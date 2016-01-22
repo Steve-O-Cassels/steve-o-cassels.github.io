@@ -17,8 +17,41 @@ I started with the [Minimal Mistakes](http://mmistakes.github.io/minimal-mistake
 
 See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
 
-## Page Speed
+## Checklist for going live
+
+### Functional
+Functional requirements.
+
+#### User interaction
+* [ ] Search
+  * Achieved with ...[maybe not Google](http://jekyll.tips/tutorials/search/)
+* [x] Comments with Disqus
+  * Achieved out of the box with Minimal Mistakes theme - see config.yaml
+* [ ] Post Reading Time
+  * GitHub pages compatible (read - no plugins) reading time is well [documented around the interwebs](https://www.google.co.uk/search?q=jekyll+reading+time&rlz=1C1GIWA_enGB646GB646&oq=jekyll+reading+time&aqs=chrome..69i57j69i65l2j69i59j69i60l2.2519j0j7&sourceid=chrome&es_sm=0&ie=UTF-8#q=jekyll+reading+time+without+plugins+github) and although [this looks cool](http://portfolio.johnpaulwhatnow.com/webdevelopment/jekyll-estimated-reading-time-liquid-no-plugins/) but I'd say [this is better](http://andytaylor.me/2013/04/07/reading-time/).
+* [ ] Domain based emails.
+* [ ] [Contact form with jotForm](http://pixelcog.com/blog/2013/jekyll-from-scratch-extending-jekyll/#contact-forms-with-jotform)
+* [ ] [Author Marks](http://mattgemmell.com/author-marks/) from Matt Gemmell.
+
+### Non-Functional
+Non-Functional requirements.
+
+#### Analytics
+* [ ] Google analytics
+
+#### Page Speed
 * [x] CSS compressed
-  * This is achieved out of the box with Minimal Mistakes theme - see config.yaml
+  * Achieved out of the box with Minimal Mistakes theme - see config.yaml
 * [x] Minified HTML
   * Thanks to [Anatol Broder](https://github.com/penibelst) for making this a simple setup with his [Jeykll Compress](https://github.com/penibelst/jekyll-compress-html).
+
+#### Testability in Deployment Pipeline and CI
+* [ ] Continuous Integration
+  * [ ]  [Travis CI is phaareee for Open Source](https://travis-ci.com/plans)
+* [ ] CoffeeScript / JavaScript asset tests
+
+### Domain switch-on checklist
+* [ ] Add CNAME file to root and [do the other necessary bits](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/#use-your-own-domain).
+* [ ] Add Google Analytics tag
+* [ ] Add Social media links
+* [ ] Move extraneous or incomplete posts to _drafts
