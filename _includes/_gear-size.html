@@ -1,0 +1,67 @@
+<table>
+  <thead>
+    <tr class="all-caps left table-head">
+      <th>Chainring</th>
+      <th colspan="10">Cassette</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <select id="chainring" name="chainring">
+          <option value="53,39">53,39</option>
+          <option value="52,39">52,39</option>
+          <option value="50,36">50,36</option>
+          <option value="50,34">50,34</option>
+        </select>
+      </td>
+      <td colspan="10">
+        <select id="cassette" name="cassette">
+          <option value="11,12,13,14,15,16,17,19,21,23">11,12,13,14,15,16,17,19,21,23</option>
+          <option value="52,39">52,39</option>
+          <option value="50,36">50,36</option>
+          <option value="50,34">50,34</option>
+        </select>
+      </td>
+    </tr>
+    <template id="gear-size">
+      <tr>
+        <td></td><td></td><td></td>
+        <td></td><td></td><td></td>
+        <td></td><td></td><td></td>
+        <td></td><td></td>
+      </tr>
+    </template>
+  </tobdy>
+</table>
+
+<script type="text/javascript">
+  (function () {
+   var calculator = new GearSize.Calculator();
+   var chainRings = [39,53]
+   var cassette = [12,13,14,15,16,17,19,21,23,25]
+   var rimDiameter = 622
+   var tyreSize = 28
+   var gearSizes = calculator.generateGearSizesInInches(chainRings, cassette, rimDiameter, tyreSize);
+
+   var template = document.querySelector('#gear-size');
+   for (var i = 0; i < gearSizes.length; i += 1) {
+     var data = gearSizes[i];
+     if(i === 0){
+       var clone = template.content.cloneNode(true);
+       var headingRow = clone.querySelectorAll('td');
+       for (var x = 0; x < data.length; x += 1) {
+         headingRow[x + 1].textContent = data[x].sprocket;
+       }
+       template.parentNode.appendChild(clone);
+     }
+     clone = template.content.cloneNode(true);
+     var sizeRow = clone.querySelectorAll('td');
+     sizeRow[0].textContent = data[0].chainRing;
+     for (var y = 0; y < data.length; y += 1) {
+       sizeRow[y + 1].textContent = data[y].gearSize;
+     }
+     template.parentNode.appendChild(clone);
+   }
+  }());
+</script>
