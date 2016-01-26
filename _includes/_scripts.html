@@ -21,3 +21,10 @@
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
+
+<!-- Custom Scripts -->
+{% if page.custom_js %}
+  {% for js_file in page.custom_js %}
+  <script src="{{ site.url }}/assets/js/sc/{{ js_file }}.js" type="text/javascript"></script>
+  {% endfor %}
+{% endif %}
