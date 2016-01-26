@@ -25,7 +25,7 @@ var render = function()
   var template = document.querySelector('#gear-size');
   for (var i = 0; i < gearSizes.length; i += 1) {
     var data = gearSizes[i];
-    cdif(i === 0){
+    if(i === 0){
       var clone = template.content.cloneNode(true);
       var headingRow = clone.querySelectorAll('td');
       for (var x = 0; x < data.length; x += 1) {
