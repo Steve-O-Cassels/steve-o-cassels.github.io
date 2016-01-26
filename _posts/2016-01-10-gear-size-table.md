@@ -6,7 +6,8 @@ modified: 2016-01-04
 tags: [jekyll, cycling, script]
 comments: true
 custom_js:
- gearsize
+- gearsize
+- gearsizerender
 ---
 
 ## What I learned
