@@ -25,7 +25,7 @@ Functional requirements.
 #### User interaction
 * [ ] Search
   * Achieved with ...[maybe not Google](http://jekyll.tips/tutorials/search/)
-* [x] Comments with Disqus
+* [ ] Comments with Disqus
   * Achieved out of the box with Minimal Mistakes theme - see config.yaml
 * [ ] Post Reading Time
   * GitHub pages compatible (read - no plugins) reading time is well [documented around the interwebs](https://www.google.co.uk/search?q=jekyll+reading+time&rlz=1C1GIWA_enGB646GB646&oq=jekyll+reading+time&aqs=chrome..69i57j69i65l2j69i59j69i60l2.2519j0j7&sourceid=chrome&es_sm=0&ie=UTF-8#q=jekyll+reading+time+without+plugins+github) and although [this looks cool](http://portfolio.johnpaulwhatnow.com/webdevelopment/jekyll-estimated-reading-time-liquid-no-plugins/) but I'd say [this is better](http://andytaylor.me/2013/04/07/reading-time/).
