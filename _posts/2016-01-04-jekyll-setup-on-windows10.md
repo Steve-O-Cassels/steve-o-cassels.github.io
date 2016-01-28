@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll setup on Windows 10
-excerpt: "Semi-automated workflow for setting up GitHub-Pages compatible Jekyll on Windows 10."
+excerpt: "Semi-automated CLI workflow for setting up GitHub-Pages compatible Jekyll on Windows 10."
 modified: 2016-01-04
 tags: [jekyll, tutorial, windows10]
 comments: true

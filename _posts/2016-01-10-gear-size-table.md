@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bicycle Gear size and ratios
-excerpt: "A hacky way to produce a gear size table in Jeckyll"
+excerpt: "A hacky way to render a gear-size-table using CoffeeScript and HTML 5 templates in Jeckyll"
 modified: 2016-01-27
 tags: [jekyll, cycling, script]
 comments: true
