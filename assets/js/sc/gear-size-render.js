@@ -1,12 +1,13 @@
-var render;
+var renderGearSizes;
 
 $(function() {
+  renderGearSizes();
   $('select').change(function() {
-    render();
+    renderGearSizes();
   });
 });
 
-render = function() {
+renderGearSizes = function() {
   var calculator, cassette, chainRings, clone, data, gearSizes, headingRow, i, rimDiameter, ring, sizeRow, sprocket, template, tyreSize, x, y;
   calculator = new GearSize.Calculator;
   rimDiameter = $('#rim-diameter').val();
@@ -54,6 +55,7 @@ render = function() {
     y = 0;
     while (y < data.length) {
       sizeRow[y + 1].textContent = data[y].gearSize;
+      sizeRow[y + 1].title = data[y].toString();
       y += 1;
     }
     template.parentNode.appendChild(clone);

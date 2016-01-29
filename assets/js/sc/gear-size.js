@@ -65,7 +65,7 @@ createGearSizeObject = function(chainRing, sprocket, gearSize, ratio, rimAndTyre
       rimAndTyreDiameterInInches: rimAndTyreDiameterInInches
     },
     toString: function() {
-      return this.chainRing + " x " + this.sprocket + " : " + this.gearSize;
+      return this.chainRing + " x " + this.sprocket + ", ratio: " + this.details.ratio + ", diameter: " + this.details.rimAndTyreDiameterInInches;
     }
   };
 };
