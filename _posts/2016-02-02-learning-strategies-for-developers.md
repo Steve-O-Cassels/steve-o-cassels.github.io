@@ -2,7 +2,7 @@
 layout: post
 title: Learning strategies for Developers
 excerpt: "Efficient learning for software developers is hard"
-modified: 2016-02-09
+modified: 2016-02-10
 tags: [learning, code, blogging, side-projects]
 comments: true
 image:
