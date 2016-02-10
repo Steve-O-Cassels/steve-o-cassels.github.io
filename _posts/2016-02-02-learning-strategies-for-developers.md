@@ -2,7 +2,7 @@
 layout: post
 title: Learning strategies for Developers
 excerpt: "Efficient learning for software developers is hard"
-modified: 2016-02-04
+modified: 2016-02-09
 tags: [learning, code, blogging, side-projects]
 comments: true
 image:
@@ -11,10 +11,9 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 {% include _toc.html %}
+How do developers learn? Of course developers learn the same way as everyone else its just we have to do alot of it because the pace of change in software delivery means we often find ourselves using a framework or language for short periods.
 
-The pace of change in software delivery means we often find ourselves using a framework or language for short periods.  As time goes on the driver for changing what we use to deliver products may vary but the upshot is the same, a constant in this developer’s life is learning the next new thing.
-
-If we approached how we deliver learning-to-ourselves in the same way we deliver software products, we’d adopt practices from Lean Engineering like Kata’s, iteration, short sprints with shorter feedback loops, removing blockers, avoiding unplanned work, moving the chair out the way and so on; we’d manage it professionally and as we iterate we'd get more effective and efficient at it.  
+If we approached how we deliver learning-to-ourselves in the same way we deliver software products, we’d adopt practices from Lean Engineering like [Kata’s](https://en.wikipedia.org/wiki/Kata), iteration, short sprints with shorter feedback loops, removing blockers, avoiding unplanned work and so on; we’d manage it professionally and as we iterate we'd get more effective and efficient at it.  
 
 The fact that we own and manage our learning goes without saying and at its very essence is the requirement to continually improve our learning strategies – cos we’re all busy and time is finite.
 
@@ -28,7 +27,7 @@ When we are busy and our entire bank of learning-time happens to fall within our
 Before considering that, lets think about learning facts.
 
 ### Learning abstract facts
-Adopting a [spaced-repetition-learning](https://en.wikipedia.org/wiki/Spaced_repetition) system has been shown to help us not only memorise but retain abstract facts like CLI, Git commands or language features.  The open source [Anki](http://ankisrs.net/) product is designed to foster efficient learning by making us practise the material you are about to forget using a Flashcard system.
+Facts are not easy to retain if we just practise memorising them.  Adopting a [spaced-repetition-learning](https://en.wikipedia.org/wiki/Spaced_repetition) system has been shown to help us not only memorise but retain over long periods abstract facts like CLI, Git commands or language features.  The open source [Anki](http://ankisrs.net/) product is designed to foster efficient learning by making us practise the material you are about to forget using a Flashcard system.
 
 ### Learning new skills and problem solving
 Skills on the other hand is where something like [www.khanacademy.org](https://www.khanacademy.org/) can show us the way with its  clever strategy of identifying what you find hard and bombarding you with questions (and tutorials) in that problem space until you can successfully solve the problem.  At the same time it periodically questions you on things you have previously solved (often weeks ago) in order to cement that learning into long term knowledge; it utilises multiple strategies including creative problem solving and spaced-repetition-learning.
@@ -49,7 +48,9 @@ Efficient learning then, is a combination of creative thinking, bolstered by rep
 
 
 ## Motivation
-From my experience there is no right way to motivate myself  - only to keep trying new things...my learning needs to be fun and productive.
+Motivation is very personal and from my experience there is no right way to motivate myself.
+
+I do find that trying new things helps as does recording my success, success breeds success...my learning needs to be fun and productive.
 
 I’ve tried Kata’s on varying sites to learn a new language (only to promptly
 forget what I learnt), indeed I admit I’ve crammed for Microsoft Exams (yip the knowledge went the same way as the Katas) but what I enjoy and retain the most is borne from building working software and blogging about it - thank you Git!
@@ -62,7 +63,7 @@ It’s truly creative so I am more engaged and it has orthogonal benefits like
 
 Blogging about the side project helps – even if you have a readership of one you’ll learn because you become your own critic and just like [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) it invokes the benefits of creative writing as you pursue the expression of the ideas in your head.
 
-For lots of folks it appears Katas are the way forward and I think the advanced nature of Katas aimed at specific language features is a great idea.
+For lots of folks it appears Katas provide sufficient motivation.  Ultimately it does not matter if you build something or just do Kata's (indeed doing both is most likely the best) so long as we have a feed back loop that lets us verify if our learning is working for us.
 
 ## References
 
