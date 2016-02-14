@@ -70,8 +70,9 @@ For lots of folks it appears Katas provide sufficient motivation.  Ultimately it
 * Teaching Writing for Learning: Roger A, 1985, Scottish Council for Research in Education
 * Bounce: The Myth of Talent and the Power of Practice: Syed, Matthew (2010-04-29).  HarperCollins Publishers.
 
-**Update**
+### Update
 
-After writing this post I came across some fabulous pages about this huge topic -
+After writing this post I came across some fabulous pages about this huge topic:
+
 * Bret Victor's [Learnable Programming](http://worrydream.com/LearnableProgramming/) is an essay on his thoughts about learning programming.
   * Bret did some work on the [KhanAcademy Javascript learning environment along with John Resig](http://ejohn.org/blog/introducing-khan-cs/)
