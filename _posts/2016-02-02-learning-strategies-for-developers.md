@@ -2,7 +2,7 @@
 layout: post
 title: Learning strategies for Developers
 excerpt: "Efficient learning for software developers is hard"
-modified: 2016-02-10
+modified: 2016-02-14
 tags: [learning, code, blogging, side-projects]
 comments: true
 image:
@@ -69,3 +69,9 @@ For lots of folks it appears Katas provide sufficient motivation.  Ultimately it
 * Effective Learning skills - http://www.asa3.org/ASA/education/learn/203.htm
 * Teaching Writing for Learning: Roger A, 1985, Scottish Council for Research in Education
 * Bounce: The Myth of Talent and the Power of Practice: Syed, Matthew (2010-04-29).  HarperCollins Publishers.
+
+**Update**
+
+After writing this post I came across some fabulous pages about this huge topic -
+* Bret Victor's [Learnable Programming](http://worrydream.com/LearnableProgramming/) is an essay on his thoughts about learning programming.
+  * Bret did some work on the [KhanAcademy Javascript learning environment along with John Resig](http://ejohn.org/blog/introducing-khan-cs/)
