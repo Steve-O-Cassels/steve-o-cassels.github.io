@@ -6,9 +6,8 @@ modified: 2016-01-04
 tags: [jekyll, tutorial, windows10]
 comments: true
 image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: fuerta.jpg
+  credit: Steve-O-Cassels
 ---
 
 {% include _toc.html %}

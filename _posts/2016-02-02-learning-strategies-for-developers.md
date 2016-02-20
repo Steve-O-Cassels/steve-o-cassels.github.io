@@ -6,9 +6,8 @@ modified: 2016-02-14
 tags: [learning, code, blogging, side-projects]
 comments: true
 image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: west.jpg
+  credit: Steve-O-Cassels
 ---
 {% include _toc.html %}
 How do developers learn? Of course developers learn the same way as everyone else although not all learners are equal. Given that the pace of change in software delivery means we often find ourselves using a framework or language for short periods, it is worthwhile expending effort to learn how we learn.
