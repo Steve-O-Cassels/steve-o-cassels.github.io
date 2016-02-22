@@ -5,6 +5,9 @@ excerpt: "A hacky way to render a gear-size-table using CoffeeScript and HTML 5 
 modified: 2016-01-30
 tags: [jekyll, cycling, script]
 comments: true
+image:
+  feature: tour-of-the-kingdom-ii.jpg
+  credit: Ian Cassels
 custom_js:
 - gear-size
 - gear-size-render
