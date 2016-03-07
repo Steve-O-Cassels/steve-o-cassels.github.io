@@ -1,0 +1,38 @@
+@startuml
+
+start
+
+if(Initial page load?) then (yes)
+partition Initialization {
+  :Page.ScriptsLoaded;
+  -> yes;
+  :Page.DomReady;
+  noteleft:$ ->
+  -> yes;
+}
+  :Page.renderGearSizes();
+  noteleft:Load full reference table.
+else (no)
+partition Process-User-Selection {
+  :Process user-selection;
+  if(onRimDiameterChange()) then (yes)
+  :HighLight:\n**RimDiameter**;
+  elseif(onTyreSizeChange()) then (yes)
+  :HighLight:\n**TyreSize**;
+  elseif(onChainRingSizeChange()) then (yes)
+  :HighLight:\n**Chainring**;
+  elseif(onCassetteChange()) then (yes)
+  :HighLight:\n**Cassette**;
+  endif
+}
+  :Hide full reference table;
+  :Page.renderGearSizes();
+endif
+
+stop
+
+footer Gear-Size UI Activity Diagram
+
+
+
+@enduml
