@@ -1,5 +1,6 @@
 @startuml
 
+title: Gear-Size-render Activity Diagram
 start
 
 if(Initial page load?) then (yes)
@@ -11,7 +12,10 @@ partition Initialization {
   -> yes;
 }
   :Page.renderGearSizes();
-  noteleft:Load full reference table.
+  note left
+  Load full
+  reference table.
+  end note
 else (no)
 partition Process-User-Selection {
   :Process user-selection;
@@ -25,14 +29,13 @@ partition Process-User-Selection {
   :HighLight:\n**Cassette**;
   endif
 }
-  :Hide full reference table;
+  :Hide full
+  reference table;
   :Page.renderGearSizes();
 endif
 
 stop
 
 footer Gear-Size UI Activity Diagram
-
-
 
 @enduml

@@ -1,0 +1,25 @@
+@startuml
+Title: Gear-Size Sequence Diagram
+actor User
+== Initialization ==
+User -> Browser: Url Request
+Browser -> Server: Request assets
+Server --> Browser: assets Response
+Browser -> Browser:DomReady
+
+== First Render ==
+Browser -> Browser: Page.renderGearSizes()
+Browser --> User: Done
+== Subsequent Render ==
+User -> Browser : 53 x 39 chainrings
+Browser -> Browser : Page.onChainRingSizeChange()
+Browser -> Browser: Page.renderGearSizes()
+Browser --> User: Done
+User -> Browser : 12-23 cassette
+Browser -> Browser : Page.onCassetteChange()
+Browser -> Browser: Page.renderGearSizes()
+Browser --> User: Done
+legend
+Page rendering
+endlegend
+@enduml
