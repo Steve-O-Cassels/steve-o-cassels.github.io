@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Planning UI Events using diagrams
+title: Test driving PlantUML in Atom.io
 excerpt: "Mapping UI events in preparation for implementation."
 modified: 2016-03-08
 tags: [node, events]
@@ -12,7 +12,7 @@ image:
 
 {% include _toc.html %}
 
-## Test driving Plant-UML in Atom.io
+## Using PlantUML to model UI events with Atom.io
 
 I'm using a node module from Neil Crawford to ease the creation of software diagrams using [Plant UML](http://plantuml.com/), Neil blogged about it on [tech.findmypast.com](http://tech.findmypast.com/a-picture-tells-a-thousand-words/) where he covered set-up in Atom.io so I'll not repeat that here.
 
@@ -26,7 +26,7 @@ PlantUML is easy to learn and I've enjoyed creating the following diagrams.
   <img
   src="/images/gear-size-activity.png">
   <figcaption>
-  Plant-UML generated Activity diagram for Gear-Size rendering.
+  PlantUML generated Activity diagram for Gear-Size rendering.
   </figcaption>
 </figure>
 
@@ -35,6 +35,6 @@ PlantUML is easy to learn and I've enjoyed creating the following diagrams.
   <img
   src="/images/gear-size-sequence.png">
   <figcaption>
-  Plant-UML generated Sequence diagram for Gear-Size rendering.
+  PlantUML generated Sequence diagram for Gear-Size rendering.
   </figcaption>
 </figure>
